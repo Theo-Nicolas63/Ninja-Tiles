@@ -1,4 +1,5 @@
-Ninja Tiles est un jeu de plateforme.
+Ninja Tiles est un jeu de plateforme. C'est un jeu android développé en Java.
+Disponible sur le playstore : https://play.google.com/store/apps/details?id=com.game.plateforme_vocale&gl=FR
 
 Comment Joueur : 
 
@@ -10,5 +11,5 @@ Comment Joueur :
 Fichiers :
 
 	Doc => contexte + persona
-	Plateforme_vocale => application
+	Ninja Tiles => application
 	 
