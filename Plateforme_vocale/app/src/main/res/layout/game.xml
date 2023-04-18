@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Linear"
+    android:background="@drawable/background"
+    >
+
+    <ImageView
+        android:id="@+id/plateforme1"
+        android:layout_width="100dp"
+        android:layout_height="23.65dp"
+        android:layout_weight="1"
+        android:src="@drawable/tiles" />
+    <ImageView
+        android:id="@+id/plateforme2"
+        android:layout_width="100dp"
+        android:layout_height="23.65dp"
+        android:layout_weight="1"
+        android:src="@drawable/tiles" />
+    <ImageView
+        android:id="@+id/plateforme3"
+        android:layout_width="100dp"
+        android:layout_height="23.65dp"
+        android:layout_weight="1"
+        android:src="@drawable/tiles" />
+    <ImageView
+        android:id="@+id/perso"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/ninja" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
+        android:shadowColor="#ff0000"
+        android:shadowRadius="5"
+        />
+</FrameLayout>

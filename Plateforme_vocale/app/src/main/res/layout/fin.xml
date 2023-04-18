@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/layout_background"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="239dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="@string/GameOver"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/afficheScore"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/pseudo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/edit_background"
+            android:hint="@string/pseudo"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="italic|bold" />
+
+        <Button
+            android:id="@+id/bt_submit"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_background"
+            android:text="@string/Valider"
+            android:textSize="25sp"
+            android:textStyle="bold|italic">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:layout_width="239dp"
+        android:layout_height="60dp"
+        android:text="@string/NinjaTiles"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/lancementJeu"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_background"
+        android:text="@string/play"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/lancement_score"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="@string/Score"
+        android:background="@drawable/button_background"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"/>
+</LinearLayout>

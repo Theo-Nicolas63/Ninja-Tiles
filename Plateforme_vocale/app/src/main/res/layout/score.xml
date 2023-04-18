@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/retour"
+        android:textStyle="bold|italic"
+        />
+
+    <LinearLayout
+        android:id="@+id/tableScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/layout_background">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/laListView"
+            android:layout_height="450dp"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

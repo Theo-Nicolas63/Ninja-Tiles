@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ninja Tiles</string>
+    <string name="invalid_name">Please add Pseudo</string>
+    <string name="erreur_pseudo_non_rentre">Vous n\'avez pas rentré votre pseudo</string>
+    <string name="Valider">Valider</string>
+    <string name="pseudo">pseudo</string>
+    <string name="GameOver">GAME OVER</string>
+    <string name="NinjaTiles">Ninja Tiles</string>
+    <string name="play">play</string>
+    <string name="Score">Score</string>
+    <string name="retour">Retour</string>
+</resources>
